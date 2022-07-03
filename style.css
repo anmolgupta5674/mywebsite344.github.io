@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('./new-york-4352072_1920.jpg');
+}
+
+nav{
+    display: flex;
+}
+
+.nav-list{
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+.nav-list .logo{
+    width: 20%;
+}
+
+
+.nav-list .logo img{
+    width: 50px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.nav-list ul{
+    display: flex;
+    width: 30%;
+}
+
+.nav-list li{
+    padding: 12px 32px;
+    list-style: none;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: grey;
+    font-size: 22px;
+
+}
+
+
+.nav-list li a:hover{
+    background:white;
+    border: 2px solid white;
+    border-radius: 24px;
+
+}
+
+.right-nav{
+    text-align: right;
+    width: 50%;
+    margin: 12px;
+}
+
+.main-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-heading .main-image{
+    width: 20%;
+
+}
+
+.main-heading .main-image img{
+    width: 190px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.main-heading .heading{
+    width: 80%;
+}
+
+.main-heading .heading .text-big{
+    color: white;
+    font-size: 60px;
+}
+
+.main-heading .heading .text-small{
+    color: white;
+    font-size: 30px;
+}
+
+.main-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-buttons .Subscribe-btn{
+    font-size: 32px;
+    cursor: pointer;
+    margin: 12px 12px;
+}
+
+.main-buttons .watch-videos-btn{
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.contact-us-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:319px;
+}
+
+.contact-us-form .form-heading{
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    color: grey;
+}
+
+.contact-us-form form{
+    border: 2px solid #000;
+}
+
+.contact-us-form form .form-input{
+    margin: 12px 2px;
+    width: 420px;
+
+}
+
+.contact-us-form form .form-button{
+    background: red;
+    border: 2px solid white;
+    border-radius: 23px;
+    color: white;
+    font-size: 2.1rem;
+}
+@media only screen and (max-width:1170px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .header{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 200vh;
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('./new-york-4352072_1920.jpg');
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-list .logo{
+        width: 50%;
+    }
+
+    .nav-list .logo img{
+        width: 30px;
+    }
+
+    .nav-list ul{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .nav-list li{
+        list-style: none;
+        padding: 10px 11px;
+    }
+
+    .nav-list li a{
+        font-size: 20px;
+    }
+
+    .right-nav{
+        text-align: center;
+        width: 50%;
+        top:35%;
+    }
+
+    .main-heading{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .main-heading .main-image{
+        width: 30%;
+    }
+
+    .main-heading .main-image img{
+
+    }
+
+    .main-heading .heading{
+        width: 70%;
+    }
+
+    .main-heading .heading .text-big{
+        font-size: 52px;
+    }
+
+    .main-heading .heading .text-small{
+        font-size: 36px;
+    }
+
+    .main-buttons{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-us-form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url('./contact-us-2993000_1920.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .contact-us-form .form-heading{
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+        color: white;
+    }
+
+    .contact-us-form form{
+        border: 2px solid #000;
+        max-width: 480px;
+    }
+
+    .contact-us-form form .form-input{
+        margin: 12px 6px;
+        width: 220px;
+
+    }
+
+    .contact-us-form form textarea{
+        width: 230px;
+    }
+
+    .contact-us-form form .form-button{
+        background: red;
+        border: 2px solid white;
+        border-radius: 23px;
+        color: white;
+        font-size: 2.1rem;
+    }
+}
